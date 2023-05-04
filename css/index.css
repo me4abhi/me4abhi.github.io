@@ -23,7 +23,7 @@ header {
 
 .my-name {
   border-bottom: 3px solid white;
-  border-left: 3px solid white;
+  border-left: 15px solid white;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
