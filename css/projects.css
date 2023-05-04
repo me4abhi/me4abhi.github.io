@@ -1,0 +1,76 @@
+.projects {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 1.6rem;
+}
+
+.project {
+    background-color: #161616;
+    border-radius: 10px;
+    position: static;
+}
+
+.project > .project-stack {
+    position: absolute;
+    border-radius: 10px 0 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.06rem;
+    font-weight: 600;
+    color: black;
+    padding: 0.5rem;
+    background-color: rgba(119, 136, 153, 50%);
+}
+
+.project > img {
+    border-radius: 10px 10px 0 0;
+    height: 225px;
+    width: 350px;
+}
+
+.project > h3 {
+    text-align: center;
+    margin: 0.6rem 1rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06rem;
+}
+
+.project > p {
+    text-align: center;
+    margin: 1rem;
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.project > .project-links {
+    margin: 0.4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.project > .project-links > a {
+    width: 40%;
+    margin: 0.3rem;
+    padding: 0.8rem;
+    border-radius: 5px;
+    background-color: wheat;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.08rem;
+}
+
+.project > .project-links > a:hover {
+    background-color: #000;
+    border: 2px solid purple;
+    color: purple;
+    font-weight: 700;
+}

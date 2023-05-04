@@ -1,4 +1,5 @@
 body {
+  height: 200vh;
   background-color: #454545;
   color: white;
   margin: 0;
@@ -108,4 +109,12 @@ nav {
   .nav-item-special {
     width: auto;
   }
+}
+
+.section-title {
+  margin: 2rem 30vw;
+  text-align: center;
+  font-size: 2rem;
+  border-bottom: 4px solid white;
+  text-transform: uppercase;
 }
