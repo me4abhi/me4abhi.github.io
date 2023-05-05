@@ -1,5 +1,4 @@
 body {
-  height: 200vh;
   background-color: #222831;
   color: white;
   margin: 0;
@@ -22,6 +21,14 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.2rem;
+  background-color: #03001c;
+  margin: 2rem 0;
+  padding: 2rem;
 }
 
 .my-name {
@@ -115,9 +122,10 @@ nav {
 }
 
 .section-title {
-  margin: 2rem 30vw;
+  color: whitesmoke;
+  margin: 2rem 25vw;
   text-align: center;
   font-size: 2rem;
-  border-bottom: 4px solid white;
+  border-bottom: 4px solid whitesmoke;
   text-transform: uppercase;
 }
