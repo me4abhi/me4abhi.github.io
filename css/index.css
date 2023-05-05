@@ -1,12 +1,15 @@
 body {
   height: 200vh;
-  background-color: #1b2430;
+  background-color: #222831;
   color: white;
   margin: 0;
   font-family: "Roboto";
 }
 
-header {;
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
   background-color: #03001c;
   display: flex;
   flex-direction: row;

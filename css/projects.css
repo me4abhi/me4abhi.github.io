@@ -10,6 +10,7 @@
 }
 
 .project {
+    width: 350px;
     background-color: #03001c;
     border-radius: 10px;
     position: static;
@@ -73,6 +74,11 @@
     border: 2px solid purple;
     color: purple;
     font-weight: 700;
+}
+
+.project > .project-links > a:visited {
+    color: purple;
+    text-decoration: underline;
 }
 
 @media only screen and (max-width: 1360px) {
