@@ -10,7 +10,7 @@
 }
 
 .project {
-    background-color: #161616;
+    background-color: #03001c;
     border-radius: 10px;
     position: static;
 }
@@ -69,8 +69,14 @@
 }
 
 .project > .project-links > a:hover {
-    background-color: #000;
+    background-color: #03001c;
     border: 2px solid purple;
     color: purple;
     font-weight: 700;
+}
+
+@media only screen and (max-width: 1360px) {
+    .projects {
+        width: 100%
+    }
 }
