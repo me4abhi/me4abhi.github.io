@@ -1,12 +1,23 @@
 import { project_data } from "../models/project_data.js";
 
-console.log(project_data);
-document.getElementById("menu-icon").addEventListener("click", menuOnClick);
 function menuOnClick() {
+  console.log("hello")
   const navbarMain = document.getElementById("navbar-main");
-  navbarMain.style.display =
-    navbarMain.style.display === "none" ? "flex" : "none";
+  console.log("do 1")
+  
+  if (navbarMain.style.display === 'none') {
+    navbarMain.style.display = 'flex';
+  } else {
+    navbarMain.style.display = 'none';
+  }
+
+  // navbarMain.style.display =
+  //   navbarMain.style.display === "none" ? "flex" : "none";
+    console.log("do 2")
 }
+
+document.getElementById("menu-icon").addEventListener("click", () => menuOnClick());
+
 
 window.addEventListener("load", showProjects);
 function showProjects() {

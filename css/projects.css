@@ -1,19 +1,18 @@
-.projects {
+.projects-container {
     width: 80%;
     margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    row-gap: 1.6rem;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
 }
 
 .project {
-    width: 350px;
+    padding-bottom: 0.5rem;
     background-color: #03001c;
     border-radius: 10px;
-    position: static;
 }
 
 .project > .project-stack {
@@ -28,9 +27,8 @@
 }
 
 .project > img {
+    width: 100%;
     border-radius: 10px 10px 0 0;
-    height: 225px;
-    width: 350px;
 }
 
 .project > h3 {
@@ -61,6 +59,7 @@
     padding: 0.8rem;
     border-radius: 5px;
     background-color: wheat;
+    color: purple;
     font-size: 1.2rem;
     text-transform: uppercase;
     text-decoration: none;
@@ -78,11 +77,18 @@
 
 .project > .project-links > a:visited {
     color: purple;
-    text-decoration: underline;
 }
 
-@media only screen and (max-width: 1360px) {
+@media screen and (max-width: 915px) {
     .projects {
-        width: 100%
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .projects {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
