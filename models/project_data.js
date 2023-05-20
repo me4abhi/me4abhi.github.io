@@ -1,5 +1,23 @@
 const project_data = [
   {
+    title: "QKart Store",
+    image: "./assets/images/projects/qkart.png",
+    stack: "React.JS",
+    description:
+      "QKart is an e-commerce application offering a variety of products for customers to choose from.",
+    live_link: "https://ecom-qkart.netlify.app/",
+    github_link: "https://github.com/me4abhi/ME_QKART",
+  },
+  {
+    title: "Multi Blog",
+    image: "./assets/images/projects/multi-blog.png",
+    stack: "React, Firebase",
+    description:
+      "QKart is an e-commerce application offering a variety of products for customers to choose from.",
+    live_link: "https://multi-blog-52f92.web.app/",
+    github_link: "https://github.com/me4abhi/MULTI-BLOG.git",
+  },
+  {
     title: "QTrip Travel",
     image: "./assets/images/projects/qtrip.png",
     stack: "JavaScript",
@@ -7,51 +25,6 @@ const project_data = [
       "QTrip is a travel website aimed at travellers looking for a multitude of adventures in different cities. ",
     live_link: "https://qtrip-vanilla.netlify.app/",
     github_link: "https://github.com/me4abhi/ME_QTRIPDYNAMIC",
-  },
-  {
-    title: "QKart",
-    image: "./assets/images/projects/qkart.png",
-    stack: "React.JS",
-    description:
-      "QKart is an e-commerce application offering a variety of products for customers to choose from.",
-    live_link: "https://ecom-qkart.netlify.app/",
-    github_link: "https://github.com/me4abhi/ME_QKART",
-  },
-  {
-    title: "QKart",
-    image: "./assets/images/projects/qkart.png",
-    stack: "React.JS",
-    description:
-      "QKart is an e-commerce application offering a variety of products for customers to choose from.",
-    live_link: "https://ecom-qkart.netlify.app/",
-    github_link: "https://github.com/me4abhi/ME_QKART",
-  },
-  {
-    title: "QKart",
-    image: "./assets/images/projects/qkart.png",
-    stack: "React.JS",
-    description:
-      "QKart is an e-commerce application offering a variety of products for customers to choose from.",
-    live_link: "https://ecom-qkart.netlify.app/",
-    github_link: "https://github.com/me4abhi/ME_QKART",
-  },
-  {
-    title: "QKart",
-    image: "./assets/images/projects/qkart.png",
-    stack: "React.JS",
-    description:
-      "QKart is an e-commerce application offering a variety of products for customers to choose from.",
-    live_link: "https://ecom-qkart.netlify.app/",
-    github_link: "https://github.com/me4abhi/ME_QKART",
-  },
-  {
-    title: "QKart",
-    image: "./assets/images/projects/qkart.png",
-    stack: "React.JS",
-    description:
-      "QKart is an e-commerce application offering a variety of products for customers to choose from.",
-    live_link: "https://ecom-qkart.netlify.app/",
-    github_link: "https://github.com/me4abhi/ME_QKART",
   },
 ];
 

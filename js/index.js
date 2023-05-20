@@ -1,24 +1,31 @@
 import { project_data } from "../models/project_data.js";
 
-function menuOnClick() {
-  console.log("hello")
-  const navbarMain = document.getElementById("navbar-main");
-  console.log("do 1")
-  
-  if (navbarMain.style.display === 'none') {
-    navbarMain.style.display = 'flex';
-  } else {
-    navbarMain.style.display = 'none';
-  }
+const navbarMain = document.getElementById("navbar-main");
 
-  // navbarMain.style.display =
-  //   navbarMain.style.display === "none" ? "flex" : "none";
-    console.log("do 2")
+// navbar menu switch-flex
+function menuOnClick() {
+  if (navbarMain.style.display === "flex") {
+    navbarMain.style.display = "none";
+  } else {
+    navbarMain.style.display = "flex";
+  }
 }
 
-document.getElementById("menu-icon").addEventListener("click", () => menuOnClick());
+// navbar handle-click
+document
+  .getElementById("menu-icon")
+  .addEventListener("click", () => menuOnClick());
 
+// navbar handle-resize
+window.addEventListener("resize", function () {
+  if (this.window.innerWidth > 915) {
+    navbarMain.style.display = "flex";
+  } else {
+    navbarMain.style.display = "none";
+  }
+});
 
+// load projects on page load
 window.addEventListener("load", showProjects);
 function showProjects() {
   project_data.map((project) => {
