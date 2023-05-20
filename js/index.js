@@ -1,5 +1,6 @@
 import { project_data } from "../models/project_data.js";
 
+
 const navbarMain = document.getElementById("navbar-main");
 
 // navbar menu switch-flex

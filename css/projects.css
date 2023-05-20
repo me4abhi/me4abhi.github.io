@@ -1,4 +1,4 @@
-    .projects {
+.projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
@@ -74,6 +74,7 @@
   color: purple;
 }
 
+/* ------------------------------------------------------------------------ */
 @media screen and (max-width: 915px) {
   .projects {
     display: grid;
