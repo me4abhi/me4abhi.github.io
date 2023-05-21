@@ -11,9 +11,9 @@ const project_data = [
   {
     title: "Multi Blog",
     image: "./assets/images/projects/multi-blog.png",
-    stack: "React, Firebase",
+    stack: "React.JS",
     description:
-      "QKart is an e-commerce application offering a variety of products for customers to choose from.",
+      "Multi Blog is a blogging application that enables people to read and post content online.",
     live_link: "https://multi-blog-52f92.web.app/",
     github_link: "https://github.com/me4abhi/MULTI-BLOG.git",
   },
