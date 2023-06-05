@@ -2,78 +2,191 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Abhinav Saini</title>
-    <link rel="stylesheet" href="./css/index.css" />
-    <link rel="stylesheet" href="./css/projects.css" />
-    <link rel="stylesheet" href="./css/experience.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Roboto"
+      href="https://fonts.googleapis.com/css?family=Dosis"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Abhinav Saini | Frontend Developer</title>
   </head>
   <body>
-    <header class="header">
-      <div class="mobile-header">
-        <h1 class="my-name">Abhinav Saini</h1>
-        <i id="menu-icon" class="fa-solid fa-bars fa-2xl"></i>
+    <!-- Header -->
+    <header id="header-home">
+      <div class="container">
+        <nav id="main-nav">
+          <a href="index.html">
+            <img src="img/logo.png" alt="My Portfolio" id="logo" />
+          </a>
+          <ul>
+            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-content">
+          <h1>
+            <span
+              class="txt-type"
+              data-wait="3000"
+              data-words='["I am Abhinav Saini", "Frontend Developer", "JavaScript Enthusiast"]'
+            ></span
+            >.
+          </h1>
+          <p class="lead">I specialize in Web and Mobile Development.</p>
+          <a href="work.html" class="btn-light">View My Work</a>
+        </div>
       </div>
-      <nav id="navbar-main">
-        <!-- <a href="" class="nav-item">Social</a> -->
-        <a href="#projects" class="nav-item">Projects</a>
-        <a href="#work-history" class="nav-item">Experience</a>
-        <a href="#contact" class="nav-item">Contact</a>
-        <a
-          href="./assets/files/Abhinav-Saini.pdf"
-          class="nav-item nav-item-special"
-        >
-          Resume <i class="fa-solid fa-download fa-sm"></i>
-        </a>
-      </nav>
     </header>
 
-    <section class="body-container">
-      <!-- Projects Section -->
-      <h2 class="section-title" id="projects">Projects</h2>
-      <div class="projects-container">
-        <div class="projects"></div>
-      </div>
-
-      <!-- Work Experience Section -->
-      <h2 class="section-title" id="work-history">Work History</h2>
-      <div class="work-history-container"></div>
-
-      <!-- Contact Section -->
-      <h2 class="section-title" id="contact">Contact</h2>
-      <div class="contact-container">
-        <div id="contact-email">
-          Reach me at
-          <a href="mailto: me4abhi@aol.com">me4abhi@aol.com</a>
+    <!-- Section A: Specialize -->
+    <section id="home-a" class="text-center py-2">
+      <div class="container">
+        <h2 class="section-title">I Specialize In</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">
+          <span class="pill-box">HTML</span>
+          <span class="pill-box">CSS</span>
+          <span class="pill-box">Bootstrap</span>
+          <span class="pill-box">JavaScript</span>
+          <span class="pill-box">React JS</span>
+          <span class="pill-box">Wix</span>
+          <span class="pill-box">MySQL</span>
+          <span class="pill-box">MongoDB</span>
+          <span class="pill-box">WordPress</span>
+        </p>
+        <div class="specials">
+          <div>
+            <i class="fas fa-file-alt fa-2x"></i>
+            <h3>Concepting</h3>
+            <p>
+              Turning your ideas into reality by creating innovative and
+              strategic concepts for your website.
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-desktop fa-2x"></i>
+            <h3>UI/UX</h3>
+            <p>
+              Intuitive and visually appealing interfaces that engage and
+              delight your visitors.
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-thumbs-up fa-2x"></i>
+            <h3>Interaction</h3>
+            <p>
+              Animations and Engaging user interactions that breathe life into
+              your website.
+            </p>
+          </div>
         </div>
-        <div class="contact-social">
-          <a href="https://linkedin.com/in/me4abhi" target="_blank" id="linkedin">
-            <img src="./assets/icons/linkedin.png" alt="linkedin">
-          </a>
-          <a href="https://github.com/me4abhi" target="_blank" id="github">
-            <img src="/assets/icons/github.png" alt="github">
-          </a>
-        </div>
       </div>
-      <!-- Add more experience items as needed -->
     </section>
 
-    <footer>&copy; me4abhi</footer>
+    <!-- Section B: Stats -->
+    <section id="home-b" class="text-center py-2">
+      <div class="stats">
+        <div>
+          <ul>
+            <li><i class="fas fa-users fa-3x"></i></li>
+            <li class="stats-title">Clients</li>
+            <li class="stats-number">3</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><i class="fas fa-building fa-3x"></i></li>
+            <li class="stats-title">Companies</li>
+            <li class="stats-number">2</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><i class="fas fa-hourglass-start fa-3x"></i></li>
+            <li class="stats-title">Experience</li>
+            <li class="stats-number">2+ Yrs.</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><i class="fas fa-code-branch fa-3x"></i></li>
+            <li class="stats-title">Projects</li>
+            <li class="stats-number">4</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-    <script type="module" src="./js/index.js"></script>
-    <script type="module" src="./js/work_history.js"></script>
-    <script type="module" src="./models/projects.js"></script>
+    <!-- Section C: Process -->
+    <section id="home-c" class="text-center py-2">
+      <div class="container">
+        <h2 class="section-title">My Creative Process</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">
+          All of my projects are based off of a practiced formula to get the
+          result that I am looking for
+        </p>
+        <div class="process">
+          <div>
+            <i class="fas fa-file-alt fa-4x process-icon my-2">
+              <div class="process-step">1</div>
+            </i>
+            <h3>Discuss The Project</h3>
+            <p>
+              Thorough discussions with the client to gain a deep understanding
+              of their goals, target audience, and desired outcomes.
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-desktop fa-4x process-icon my-2">
+              <div class="process-step">2</div>
+            </i>
+            <h3>Brainstorming Concept</h3>
+            <p>
+              Once the project is well understood, I initiate a brainstorming
+              phase where creative ideas are generated.
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-object-ungroup fa-4x process-icon my-2">
+              <div class="process-step">3</div>
+            </i>
+            <h3>UI/UX Planning</h3>
+            <p>
+              Developing intuitive and functional designs that prioritize
+              usability, accessibility and seamless navigation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p>Copyright &copy; 2023</p>
+        <div class="social">
+          <a href="https://linkedin.com/in/me4abhi" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/me4abhi" target="_blank"
+            ><i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Type Effect Tutorial (for future reference): https://www.youtube.com/watch?v=POX3dT-pB4E -->
+    <script src="js/typewriter.js"></script>
   </body>
 </html>
