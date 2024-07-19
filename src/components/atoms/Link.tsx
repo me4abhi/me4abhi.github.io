@@ -1,7 +1,12 @@
 import React from 'react';
 
-const Link: React.FC = () => {
-  return <a href=""></a>;
+interface LinkProps {
+  children: React.ReactNode;
+  url: string;
+}
+
+const Link: React.FC<LinkProps> = ({ children, url }) => {
+  return <a href={url}>{children}</a>;
 };
 
 export default Link;
