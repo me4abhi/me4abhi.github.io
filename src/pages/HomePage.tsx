@@ -1,5 +1,11 @@
+import Header from '../components/organisms/Header';
+
 const HomePage: React.FC = () => {
-  return <>React Starter</>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 };
 
 export default HomePage;
