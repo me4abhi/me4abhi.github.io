@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --gradient-primary: linear-gradient(#ff3131, #ff914d);
+  --gradient-secondary: linear-gradient(90deg, #00c6ff, #0072ff);
+  --gradient-tertiary: linear-gradient(90deg, #f7971e, #ffd200);
+}
+
 body {
   margin: 0;
   background-color: #000;
@@ -15,6 +21,15 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* colors */
+.primaryGradient {
+  background-color: linear-gradient(#ff3131, #ff914d);
+}
+.border-primaryGradient {
+  border-color: transparent;
+  border-image: linear-gradient(#ff3131, #ff914d) 1;
 }
 
 #app-container {

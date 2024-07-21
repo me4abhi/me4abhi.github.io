@@ -26,6 +26,10 @@ module.exports = {
             '-webkit-text-fill-color': 'transparent',
             padding: '2px 0px',
           },
+          'border-primaryGradient': {
+            borderColor: 'transparent',
+            borderImage: 'linear-gradient(#ff3131, #ff914d) 1',
+          },
         },
         ['responsive', 'hover'],
       );
