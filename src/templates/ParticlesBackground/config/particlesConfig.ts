@@ -12,13 +12,13 @@ const particlesConfigSquare = {
       },
     },
     color: {
-      value: '#1b1e34',
+      value: '#36454F',
     },
     shape: {
       type: 'edge',
       stroke: {
         width: 0,
-        color: '#000000',
+        color: '#36454F',
       },
       polygon: {
         nb_sides: 4,
@@ -52,7 +52,7 @@ const particlesConfigSquare = {
     line_linked: {
       enable: false,
       distance: 500,
-      color: '#ffffff',
+      color: '#36454F',
       opacity: 0.4,
       width: 2,
     },
