@@ -7,6 +7,7 @@ module.exports = {
       },
       backgroundImage: {
         'primary-gradient': 'linear-gradient(#ff3131, #ff914d)',
+        'white-gradient': 'linear-gradient(#ffffff, #808080)',
       },
       colors: {
         primary: '#ff3131',
@@ -22,6 +23,12 @@ module.exports = {
         {
           '.text-gradient': {
             background: 'linear-gradient(#ff3131, #ff914d)',
+            '-webkit-background-clip': 'text',
+            '-webkit-text-fill-color': 'transparent',
+            padding: '2px 0px',
+          },
+          '.text-gradient-white': {
+            background: 'linear-gradient(90deg, #ffffff, #808080)',
             '-webkit-background-clip': 'text',
             '-webkit-text-fill-color': 'transparent',
             padding: '2px 0px',
