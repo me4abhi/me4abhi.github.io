@@ -1,6 +1,7 @@
 {
   "name": "react-starter-template",
   "version": "0.1.0",
+  "homepage": "https://me4abhi.github.io/me4abhi.github.io",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.6",
@@ -19,6 +20,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start --port 3001",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -56,6 +59,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-react": "^7.34.4",
+    "gh-pages": "^6.1.1",
     "husky": "^8.0.3",
     "lint-staged": "^15.2.7",
     "postcss": "^8.4.39",
