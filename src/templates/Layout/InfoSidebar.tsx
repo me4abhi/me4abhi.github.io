@@ -16,9 +16,9 @@ const InfoSidebar: React.FC = () => {
         <nav>
           <ol>
             <li>
-              <HyphenedLink href="#experience-timeline">About</HyphenedLink>
+              <HyphenedLink href="#experience">Experience</HyphenedLink>
             </li>
-            <li>
+            {/* <li>
               <HyphenedLink href="#about">Experience</HyphenedLink>
             </li>
             <li>
@@ -26,7 +26,7 @@ const InfoSidebar: React.FC = () => {
             </li>
             <li>
               <HyphenedLink href="#about">About</HyphenedLink>
-            </li>
+            </li> */}
           </ol>
         </nav>
       </header>

@@ -4,7 +4,7 @@ import PillsGroup from './PillsGroup';
 
 const Timeline: React.FC = () => {
   return (
-    <div className="w-full relative top-24" id="experience-timeline">
+    <section className="w-full relative top-24" id="experience">
       <ol className="relative border-s border-gray-200 dark:border-gray-700 mx-12">
         <TimelineItem
           date={'January 2024'}
@@ -49,7 +49,7 @@ const Timeline: React.FC = () => {
           <PillsGroup items={['HTML/CSS', 'JavaScript', 'PHP', 'MySQL']} />
         </TimelineItem>
       </ol>
-    </div>
+    </section>
   );
 };
 
