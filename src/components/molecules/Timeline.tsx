@@ -4,7 +4,7 @@ import PillsGroup from './PillsGroup';
 
 const Timeline: React.FC = () => {
   return (
-    <section className="w-full lg:relative lg:top-24" id="experience">
+    <section className="w-full lg:relative lg:top-16" id="experience">
       <h1 className="font-bold text-white text-xl mb-1 mx-8 lg:hidden">
         Experience
       </h1>

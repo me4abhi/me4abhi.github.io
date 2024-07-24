@@ -12,7 +12,7 @@ const TextPill: React.FC<TextPillProps> = (props) => {
   return (
     <span
       style={{ background: bgColor, fontSize: textSize }}
-      className="px-2 py-1 rounded-xl"
+      className="px-2 py-1 rounded-xl flex items-center justify-center text-center"
     >
       {children}
     </span>
