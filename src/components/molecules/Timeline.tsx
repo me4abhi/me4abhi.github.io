@@ -1,73 +1,55 @@
 import React from 'react';
-import TextDisc from '../atoms/TextDisc';
+import TimelineItem from './TimelineItem';
+import PillsGroup from './PillsGroup';
 
 const Timeline: React.FC = () => {
   return (
-    <>
+    <div className="w-full relative top-24" id="experience-timeline">
       <ol className="relative border-s border-gray-200 dark:border-gray-700 mx-12">
-        <li className="mb-10 ms-4">
-          <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-          <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            February 2022
-          </time>
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-            Application UI code in Tailwind CSS
-          </h3>
-          <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-            Get access to over 20+ pages including a dashboard layout, charts,
-            kanban board, calendar, and pre-order E-commerce & Marketing pages.
-          </p>
-          <a
-            href="#"
-            className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
-          >
-            Learn more{' '}
-            <svg
-              className="w-3 h-3 ms-2 rtl:rotate-180"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 14 10"
-            >
-              <path
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M1 5h12m0 0L9 1m4 4L9 9"
-              />
-            </svg>
-          </a>
-        </li>
-        <li className="mb-10 ms-4">
-          <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-          <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            March 2022
-          </time>
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-            Marketing UI design in Figma
-          </h3>
-          <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-            All of the pages and components are first designed in Figma and we
-            keep a parity between the two versions even as we update the
-            project.
-          </p>
-        </li>
-        <li className="ms-4">
-          <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-          <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            April 2022
-          </time>
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-            E-Commerce UI code in Tailwind CSS
-          </h3>
-          <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-            Get started with dozens of web components and interactive elements
-            built on top of Tailwind CSS.
-          </p>
-        </li>
+        <TimelineItem
+          date={'January 2024'}
+          title={'Frontend Engineer • MapUp'}
+          content={
+            'Build and maintain critical components used to construct frontend products at MapUp. Work closely with cross-functional teams including developers, designers, and data analysts, to implement and advocate best practices in UI/UX and web accessibility.'
+          }
+          href="https://www.mapup.ai/"
+        >
+          <PillsGroup items={['JavaScript', 'Next.js', 'AWS']} />
+        </TimelineItem>
+
+        <TimelineItem
+          date={'January 2023'}
+          title={'SDE-I • Delta India'}
+          content={
+            'Implemented responsive UI components with React.js and TailwindCSS, created landing pages with Next.js, integrated third-party APIs, and developed WordPress sites.'
+          }
+          href="https://deltas.co.in/"
+        >
+          <PillsGroup items={['React.js', 'Redux Toolkit', 'WordPress']} />
+        </TimelineItem>
+
+        <TimelineItem
+          date={'November 2021'}
+          title={'Developer, Mobile/XT • Publicis Sapient'}
+          content={
+            "Developed, maintained, and shipped production code for client websites. Clients included The Children's Place, Publicis Groupe, and more."
+          }
+          href="https://www.publicissapient.com/"
+        >
+          <PillsGroup items={['React.js', 'Redux', 'Flutter']} />
+        </TimelineItem>
+
+        <TimelineItem
+          date={'January 2021 - June 2021'}
+          title={'Internship • EME Technologies'}
+          content={
+            'Collaborated with other student designers to design wireframes and develop new features for client projects.'
+          }
+        >
+          <PillsGroup items={['HTML/CSS', 'JavaScript', 'PHP', 'MySQL']} />
+        </TimelineItem>
       </ol>
-    </>
+    </div>
   );
 };
 
