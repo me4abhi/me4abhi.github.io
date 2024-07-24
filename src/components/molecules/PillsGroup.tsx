@@ -14,7 +14,7 @@ const PillsGroup: React.FC<PillsGroupProps> = (props) => {
         return (
           <TextPill
             key={index}
-            bgColor={'var(--gradient-secondary)'}
+            bgColor={'var(--gradient-purple)'}
             textSize={'.8rem'}
           >
             {item}
