@@ -4,7 +4,7 @@
 
 :root {
   --gradient-primary: linear-gradient(#ff3131, #ff914d);
-  --gradient-secondary: linear-gradient(90deg, #00c6ff, #0072ff);
+  --gradient-purple: linear-gradient(90deg, #000000, #741eaa);
   --gradient-tertiary: linear-gradient(90deg, #f7971e, #ffd200);
 }
 
