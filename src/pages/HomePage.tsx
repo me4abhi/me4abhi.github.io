@@ -7,7 +7,7 @@ const HomePage: React.FC = () => {
     <>
       {/* <Header /> */}
       {/* <div className="w-full"> */}
-      <div style={{ zIndex: '9' }} className="w-[60%] mx-auto mt-16 flex gap-4">
+      <div style={{ zIndex: '9' }} className="w-[60%] mx-auto flex gap-4">
         <InfoSidebar />
         <Timeline />
       </div>

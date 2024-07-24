@@ -8,13 +8,21 @@ interface PillsGroupProps {
 const PillsGroup: React.FC<PillsGroupProps> = (props) => {
   const { items } = props;
 
-  return items?.map((item, index) => {
-    return (
-      <TextPill key={index} bgColor={'red'}>
-        {item}
-      </TextPill>
-    );
-  });
+  return (
+    <div className="flex gap-2">
+      {items?.map((item, index) => {
+        return (
+          <TextPill
+            key={index}
+            bgColor={'var(--gradient-secondary)'}
+            textSize={'.8rem'}
+          >
+            {item}
+          </TextPill>
+        );
+      })}
+    </div>
+  );
 };
 
 export default PillsGroup;
