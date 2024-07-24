@@ -17,7 +17,7 @@ const Timeline: React.FC = () => {
           }
           href="https://www.mapup.ai/"
         >
-          <PillsGroup items={['JavaScript', 'Next.js', 'AWS']} />
+          <PillsGroup items={['JavaScript', 'Next.js', 'TailwindCSS', 'AWS']} />
         </TimelineItem>
 
         <TimelineItem
@@ -28,7 +28,9 @@ const Timeline: React.FC = () => {
           }
           href="https://deltas.co.in/"
         >
-          <PillsGroup items={['React.js', 'Redux Toolkit', 'WordPress']} />
+          <PillsGroup
+            items={['React.js', 'Redux Toolkit', 'SCSS', 'WordPress']}
+          />
         </TimelineItem>
 
         <TimelineItem
