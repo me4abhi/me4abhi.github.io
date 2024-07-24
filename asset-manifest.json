@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/me4abhi.github.io/static/css/main.76de0679.css",
+    "main.js": "/me4abhi.github.io/static/js/main.517fda77.js",
+    "index.html": "/me4abhi.github.io/index.html",
+    "main.76de0679.css.map": "/me4abhi.github.io/static/css/main.76de0679.css.map",
+    "main.517fda77.js.map": "/me4abhi.github.io/static/js/main.517fda77.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76de0679.css",
+    "static/js/main.517fda77.js"
+  ]
+}
