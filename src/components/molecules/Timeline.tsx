@@ -4,8 +4,11 @@ import PillsGroup from './PillsGroup';
 
 const Timeline: React.FC = () => {
   return (
-    <section className="w-full relative top-24" id="experience">
-      <ol className="relative border-s border-gray-200 dark:border-gray-700 mx-12">
+    <section className="w-full lg:relative lg:top-24" id="experience">
+      <h1 className="font-bold text-white text-xl mb-1 mx-8 lg:hidden">
+        Experience
+      </h1>
+      <ol className="relative border-s border-gray-200 dark:border-gray-700 mx-8 lg:mx-0">
         <TimelineItem
           date={'January 2024'}
           title={'Frontend Engineer • MapUp'}

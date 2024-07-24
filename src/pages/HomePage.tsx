@@ -7,7 +7,10 @@ const HomePage: React.FC = () => {
     <>
       {/* <Header /> */}
       {/* <div className="w-full"> */}
-      <div style={{ zIndex: '9' }} className="w-[60%] mx-auto flex gap-4">
+      <div
+        style={{ zIndex: '9' }}
+        className="w-[100%] lg:w-[60%] mx-auto lg:grid lg:grid-cols-2 lg:gap-4"
+      >
         <InfoSidebar />
         <Timeline />
       </div>
