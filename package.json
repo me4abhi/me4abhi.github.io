@@ -1,7 +1,7 @@
 {
   "name": "react-starter-template",
   "version": "0.1.0",
-  "homepage": "https://me4abhi.github.io/me4abhi.github.io",
+  "homepage": "https://me4abhi.github.io/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.6",
